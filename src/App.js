@@ -5,19 +5,19 @@ import { Link } from 'react-router-dom';
 function App() {
   return (
     <div> 
-     <nav>
-      <ul>
+     <nav className='header'>
+      <ul className='Tilisma'> 
         <li>
-          <Link to="counter">Counter</Link> 
+          <Link  className='list'  to="counter">Counter</Link> 
         </li> 
         <li>
-          <Link to="about">About</Link>
+          <Link className='list' to="about">About</Link>
         </li> 
         <li> 
-          <Link to="contact">Contact</Link> 
+          <Link className='list' to="contact">Contact</Link> 
         </li> 
         <li>
-          <Link to="service">Service</Link>
+          <Link className='list' to="service">Service</Link>
         </li>
       </ul>
      </nav>
